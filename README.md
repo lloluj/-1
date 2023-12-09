@@ -1,1 +1,1 @@
-# My tenplates are stored here
+# My templates are stored here <З
