@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,p{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    padding: auto;
+    font-family: Poppins, sans-serif;
+}
+::-webkit-scrollbar {
+    width: 0;
+  }
+.page1{
+    width: 1441px;
+    height: 800px;
+    background-image: url(third/Bitmap.svg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.logo{
+    width: 1111px;
+    height: 43px;
+    top: 23px;
+    left: 164px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background: 0;
+    border: 0;
+    cursor: pointer;
+}
+.agency{
+    color: #fff;
+    width: 616px;
+    height: 412px;
+    margin-top: 130px;
+    margin-left: 166px;
+
+}
+#p1{
+    margin: 20px 0;
+}
+#p2{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.agency a{
+    color: #FFD723;
+    font-weight: 20px;
+    font-size: 16;
+    line-height: 24px;
+}
+.page2{
+    width: 1441px;
+    height: 870px;
+    background-color: #fff;
+    margin: auto;
+    z-index: 0;
+    position: relative;
+}
+
+.container1{
+    width: 1276px;
+    height: 227px;
+    top: 707px;
+    left: 165px;
+    z-index: 1;
+    background-color: #FFD723;
+    position: relative;
+}
+
+#h1{
+    padding-top: 150px;
+    padding-left: 166px;
+    font-size: 36px;
+    font-weight: 1000;
+    line-height: 46px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+.block{
+    width: 1110px;
+    height: 309px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    
+}
+.block1{
+    width: 255px;
+    height: 309px;
+    display: grid;
+    align-items: end;
+}
+.block1 h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0px;
+
+}
+.block1 p{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0px;
+}
+
+.block1 a{
+    color: #D4D6D4;
+    font-weight: 600;
+    font-size: 16x;
+}
+.block a:hover{
+    color: #FFD723;
+}
+.page3{
+    width: 1441px;
+    height: 920px;
+    margin: auto;
+    background-color: rgb(80, 87, 61);
+    position: relative;
+    z-index: 1;
+    display: grid;
+    align-content: end;
+}
+.getstarted{
+    width: 1275px;
+    height: 362px;
+    background-color: #FAFAFA;
+    position: absolute;
+    z-index: 2;
+    margin: -180px auto;
+    align-items: center;
+
+    box-shadow: 50px 130px 100px 0px #00000025;
+
+} 
+.getstarted h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 0px;
+    color: #4D533C;
+}
+.lets{
+    width: 822px;
+    height: 221px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 165px;
+    margin-top: 80px;
+}
+.container3{
+    position: relative;
+    z-index: 0;
+}
+.container3 img{
+    opacity: 0.25;
+}
+
+.information{
+    width: 1111px;
+    height: 580px;
+    background-color: #FFD723;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 320px;
+    margin-left: 166px;
+
+}
+.phone{
+    background-color: brown;
+    width: 452px;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.phone h1{
+    color: #B6C197;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0px;
+}
+.phone p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+}
+.services{
+    background-color: aqua;
+    width: 1111px;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+.end{
+    background-color: darkgoldenrod;
+    width: 1110px;
+    height: 60px;
+}
+.services ul{
+    list-style: none;
+}
+.services ul li{
+    margin-top: 10px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    width: 551px;
+
+}
+
+.box1{
+    width: 167px;
+    height: 259px;
+    background-color: #B6C197;
+    padding-top: 60px;
+}
+.box2{
+    width: 160px;
+    height: 219px;
+    background-color: #4D533C;
+    padding-top: 60px;
+    
+}
+
+.box3{
+    width: 167px;
+    height: 219px;
+    background-color: #FFD723;
+    padding-top: 60px;
+}
+
+.box4{
+    background-color: aquamarine;
+    padding-top: 60px;
+}
+.box h1{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0px;
+    color: #ffffff;
+}
